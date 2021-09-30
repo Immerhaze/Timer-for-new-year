@@ -36,6 +36,7 @@ h1{
     position: relative;
     top: 50%;
     color: whitesmoke;
+    animation: colorchange 8s infinite alternate;
     text-shadow: 4px 3px 3px black;
    
 }
@@ -53,5 +54,30 @@ span{
     font-size: 2rem;
     font-weight: bold;
     color: whitesmoke;
+}
+
+
+@keyframes colorchange {
+    0%{
+       color: aqua; 
+    }
+    10%{
+        color:blueviolet
+    }
+    40%{
+        color: chartreuse;
+    }
+    60%{
+        color: darkcyan;
+    }
+    80%{
+        color: darkgoldenrod;
+    }
+    90%{
+         color: darkorange;
+        }
+    100%{
+        color: whitesmoke;
+    }
 }
 
